@@ -1,0 +1,278 @@
+:root{
+    --primary: #34eb3a;
+    --secondary: #95989a;
+    --text-color: #fdfdfd;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+/* header */
+
+#header-container{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/hrz-5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Description container */
+
+#description-container{
+    color: var(--text-color);
+}
+
+#main-title{
+    font-size: 1.5em;
+    padding-bottom: 2.5rem;
+    color: var(--primary);
+}
+
+#description{
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+#about-date p{
+    font-size: 1.2em;
+    margin-bottom: .5rem;
+}
+
+#event-date{
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* formulary container */
+
+#form-container{
+    width: 25%;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+#form-title{
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.form-group{
+    color: var(--text-tertiary);
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select{
+    width: 100%;
+    padding: 6px 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 15px;
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+/* about content */
+
+#aboutcontent-title{
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    padding: 2em;
+    font-weight: 500;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+    gap: 20px;
+}
+
+.content-group{
+    max-width: 23%;
+}
+
+.content-group img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}
+
+.content-group{
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+/* Location */
+
+#location{
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/hrz-6.jpg);
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    color: var(--text-color);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#place{
+    display: flex;
+    font-size: 1.5em;
+    max-width: 25%;
+    gap: 30px;
+}
+
+#place i{
+    font-size: 3em;
+    color: var(--primary);
+}
+
+#addres{
+    text-align: center;
+}
+
+#about-place{
+    max-width: 25%;
+}
+
+#aboutplace-title{
+    color: var(--primary);
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#aboutplace-description{
+    font-size: 1em;
+}
+
+/* Content description section */
+
+#content-description{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-description{
+    display: flex;
+    padding: 2em;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-description img{
+    width: 50%;
+    height: 310px;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-description h4{
+    font-size: 3em;
+    width: 45%;
+    color: var(--text-secondary);
+    padding: 1rem;
+}
+
+.list-title{
+    font-size: 2.5em;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.list{
+    padding-left: 2em;
+}
+
+.list ul li{
+    margin-bottom: .5rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#bottom{
+    margin-right: 30%;
+}
+
+/* Like section */
+
+#like-container{
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/hrz-4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+#like-title{
+    font-size: 2em;
+    margin: 2rem;
+}
+
+.like-btn{
+    width: 30%;
+    font-size: 1.2em;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    color: var(--secondary);
+}
+
+#footer-title{
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+#footer-subtitle{
+    margin-bottom: 1rem;
+}
